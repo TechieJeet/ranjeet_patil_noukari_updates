@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/hourly-task.js": {
+      "runtime": "nodejs22.x"
+    }
+  },
+  "cron": [
+    {
+      "path": "/api/hourly-task",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
